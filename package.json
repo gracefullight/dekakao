@@ -1,0 +1,16 @@
+{
+  "name": "dekakao",
+  "version": "0.1.0",
+  "repository": "git@github.com:gracefullight/dekakao.git",
+  "author": "gracefullight <gracefullight.dev@gmail.com>",
+  "license": "unlicense",
+  "packageManager": "yarn@3.1.0",
+  "scripts": {
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4"
+  }
+}
