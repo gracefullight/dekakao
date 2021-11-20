@@ -4,6 +4,9 @@
   "repository": "git@github.com:gracefullight/dekakao.git",
   "author": "gracefullight <gracefullight.dev@gmail.com>",
   "license": "unlicense",
+  "engines": {
+    "node": "16"
+  },
   "packageManager": "yarn@3.1.0",
   "scripts": {
     "postinstall": "husky install"
