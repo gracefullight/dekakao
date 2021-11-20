@@ -7,7 +7,8 @@
 
 # Contributing
 
-- ...
+- If you want to help out with the project, here are some ideas (submit Issues & Pull Requests on the GitHub page).
+- When contributing, please follow the rules outlined in [CONTRIBUTING.md.](/CONTRIBUTING.md)
 
 # Personal information
 
@@ -17,7 +18,7 @@
 
 ## Third-party data
 
-[카카오계정 관리 페이지](https://accounts.kakao.com/weblogin/account/info) > 계정 이용 > [연결된 서비스 관리](https://accounts.kakao.com/weblogin/account/partner)
+[카카오계정 관리 페이지](https://accounts.kakao.com/weblogin/account/info) > 계정이용 > [연결된 서비스 관리](https://accounts.kakao.com/weblogin/account/partner)
 
 # Replacements/alternatives
 
