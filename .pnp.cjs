@@ -37,7 +37,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@commitlint/cli", "npm:15.0.0"],
             ["@commitlint/config-conventional", "npm:15.0.0"],
-            ["husky", "npm:7.0.4"]
+            ["husky", "npm:7.0.4"],
+            ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=ddd1e8"]
           ],
           "linkType": "SOFT",
         }]
@@ -608,7 +609,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dekakao", "workspace:."],
             ["@commitlint/cli", "npm:15.0.0"],
             ["@commitlint/config-conventional", "npm:15.0.0"],
-            ["husky", "npm:7.0.4"]
+            ["husky", "npm:7.0.4"],
+            ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=ddd1e8"]
           ],
           "linkType": "SOFT",
         }]
