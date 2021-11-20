@@ -1,7 +1,7 @@
 # Cutting KAKAO out of your life
 
 ![status](https://img.shields.io/badge/status-draft-yellow)
-![license](https://img.shields.io/badge/github/license/gracefullight/dekakao)
+![license](https://img.shields.io/badge/license-unlicensed-green)
 
 > wanna keep loose coupling for my privacy. heavily inspired by degoogle.
 
