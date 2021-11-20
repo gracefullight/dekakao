@@ -3,7 +3,7 @@
 ![status](https://img.shields.io/badge/status-draft-yellow)
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 
-> wanna keep loose coupling for my privacy. heavily inspired by degoogle.
+> wanna keep loose coupling for privacy. heavily inspired by [degoogle](https://github.com/tycrek/degoogle).
 
 # Contributing
 
