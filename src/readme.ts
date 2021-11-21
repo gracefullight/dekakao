@@ -3,6 +3,7 @@ import { join } from "path";
 import { EOL } from "os";
 
 import { load } from "js-yaml";
+import { DateTime } from "luxon";
 
 import type { Service } from "./types";
 
@@ -40,9 +41,14 @@ ${service.children
     })
     .join(EOL);
 
-  const headerContent = await readMarkdown("_header.md");
+  const headerContent = (await readMarkdown("_header.md")).replace(
+    "{{DATE}}",
+    DateTime.local({ zone: "Asia/Seoul" }).toISO()
+  );
   const contributeContent = await readMarkdown("contributing.md");
-  const personalInformationContent = await readMarkdown("personal-information.md");
+  const personalInformationContent = await readMarkdown(
+    "personal-information.md"
+  );
   const alternativeContent = `
 ## Replacements/alternatives
 

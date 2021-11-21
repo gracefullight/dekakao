@@ -421,6 +421,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/luxon@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@types/luxon@npm:2.0.7"
+  checksum: 81ee3bf5085dac398468e788c2bdc9d36a28c673453f335b6bfe0b31bacb907a7368b09e1794c93702e73c5ebf2733c562c2bfb12768e893a58ce7dc70beacd9
+  languageName: node
+  linkType: hard
+
 "@types/minimist@npm:^1.2.0":
   version: 1.2.2
   resolution: "@types/minimist@npm:1.2.2"
@@ -737,9 +744,11 @@ __metadata:
     "@swc/cli": ^0.1.51
     "@swc/core": ^1.2.111
     "@types/js-yaml": ^4.0.5
+    "@types/luxon": ^2.0.7
     "@types/node": ^16.11.9
     husky: ^7.0.4
     js-yaml: ^4.1.0
+    luxon: ^2.1.1
     typescript: ~4.4.4
   languageName: unknown
   linkType: soft
@@ -1203,6 +1212,13 @@ __metadata:
   dependencies:
     yallist: ^4.0.0
   checksum: f97f499f898f23e4585742138a22f22526254fdba6d75d41a1c2526b3b6cc5747ef59c5612ba7375f42aca4f8461950e925ba08c991ead0651b4918b7c978297
+  languageName: node
+  linkType: hard
+
+"luxon@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "luxon@npm:2.1.1"
+  checksum: 6d562796c4df195988f2afdca733e5a36457d6449c196cbf16710c706fde8d6b96c7d47fa54cd37c0cb29e4d2e7d8628a9677f36e23490139a8c90232f489e02
   languageName: node
   linkType: hard
 

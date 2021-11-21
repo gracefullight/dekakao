@@ -40,9 +40,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/cli", "virtual:2e11b017e58c39b70af747fdd923a197ff88739068a9bcb06c1506e0b5ab511db1b482d697cef5bf608ded28d3a33b9ffd87a10c8b9056222025317a346a2392#npm:0.1.51"],
             ["@swc/core", "npm:1.2.111"],
             ["@types/js-yaml", "npm:4.0.5"],
+            ["@types/luxon", "npm:2.0.7"],
             ["@types/node", "npm:16.11.9"],
             ["husky", "npm:7.0.4"],
             ["js-yaml", "npm:4.1.0"],
+            ["luxon", "npm:2.1.1"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"]
           ],
           "linkType": "SOFT",
@@ -515,6 +517,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/luxon", [
+        ["npm:2.0.7", {
+          "packageLocation": "./.yarn/cache/@types-luxon-npm-2.0.7-408800309f-81ee3bf508.zip/node_modules/@types/luxon/",
+          "packageDependencies": [
+            ["@types/luxon", "npm:2.0.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/minimist", [
         ["npm:1.2.2", {
           "packageLocation": "./.yarn/cache/@types-minimist-npm-1.2.2-a445de65da-b8da83c66e.zip/node_modules/@types/minimist/",
@@ -873,9 +884,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/cli", "virtual:2e11b017e58c39b70af747fdd923a197ff88739068a9bcb06c1506e0b5ab511db1b482d697cef5bf608ded28d3a33b9ffd87a10c8b9056222025317a346a2392#npm:0.1.51"],
             ["@swc/core", "npm:1.2.111"],
             ["@types/js-yaml", "npm:4.0.5"],
+            ["@types/luxon", "npm:2.0.7"],
             ["@types/node", "npm:16.11.9"],
             ["husky", "npm:7.0.4"],
             ["js-yaml", "npm:4.1.0"],
+            ["luxon", "npm:2.1.1"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"]
           ],
           "linkType": "SOFT",
@@ -1409,6 +1422,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["lru-cache", "npm:6.0.0"],
             ["yallist", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["luxon", [
+        ["npm:2.1.1", {
+          "packageLocation": "./.yarn/cache/luxon-npm-2.1.1-ff45f44364-6d562796c4.zip/node_modules/luxon/",
+          "packageDependencies": [
+            ["luxon", "npm:2.1.1"]
           ],
           "linkType": "HARD",
         }]
