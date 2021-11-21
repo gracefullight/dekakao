@@ -83,6 +83,11 @@ T:
       ios:
       description:
 
+Tistory:
+  title:
+  description:
+  children: []
+
 Story:
   title:
   description:
