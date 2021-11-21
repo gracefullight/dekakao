@@ -1,0 +1,39 @@
+name: Generate readme.md
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - src/yaml/*.yml
+      - src/md/*.md
+      - src/readme.ts
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 16.x
+
+    - name: Install & Build
+      run: yarn && yarn build
+
+    - name: Generate
+      run: yarn generate
+
+    - name: Commit
+      run: |
+        mv -f dist/README.md .
+        git add README.md
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit --allow-empty -m "Generated README.md"
+
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
