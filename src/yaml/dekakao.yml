@@ -86,7 +86,10 @@ T:
 Tistory:
   title:
   description:
-  children: []
+  children: 
+    - name: Github Pages
+      url: https://pages.github.com
+      description:
 
 Story:
   title:
