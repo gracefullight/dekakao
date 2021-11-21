@@ -14,7 +14,6 @@
     "generate": "node dist/readme.js"
   },
   "dependencies": {
-    "@types/luxon": "^2.0.7",
     "js-yaml": "^4.1.0",
     "luxon": "^2.1.1"
   },
@@ -24,6 +23,7 @@
     "@swc/cli": "^0.1.51",
     "@swc/core": "^1.2.111",
     "@types/js-yaml": "^4.0.5",
+    "@types/luxon": "^2.0.7",
     "@types/node": "^16.11.9",
     "husky": "^7.0.4",
     "typescript": "~4.4.4"
