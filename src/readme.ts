@@ -9,13 +9,17 @@ import type { Service } from "./types";
 const BACK_TO_TOP =
   "[![Back to top](https://img.shields.io/badge/Back%20to%20top-lightgrey?style=flat-square)](#cutting-kakao-out-of-your-life)";
 
-const readYaml = async (path: string) => {
-  const rawData = await readFile(join(__dirname, path), "utf8");
+const readYaml = async (path: string): Promise<unknown> => {
+  const rawData = await readFile(join(__dirname, "yaml", path), "utf8");
   return load(rawData);
 };
 
+const readMarkdown = async (path: string): Promise<string> => {
+  return await readFile(join(__dirname, "md", path), "utf8");
+};
+
 (async () => {
-  const data = (await readYaml("./yaml/dekakao.yml")) as Service;
+  const data = (await readYaml("dekakao.yml")) as Service;
   const alternativeBody = Object.keys(data)
     .map((kakaoService) => {
       const service = data[kakaoService];
@@ -36,6 +40,9 @@ ${service.children
     })
     .join(EOL);
 
+  const headerContent = await readMarkdown("_header.md");
+  const contributeContent = await readMarkdown("contributing.md");
+  const personalInformationContent = await readMarkdown("personal-information.md");
   const alternativeContent = `
 ## Replacements/alternatives
 
@@ -43,21 +50,9 @@ ${BACK_TO_TOP}
 ${alternativeBody}
 `;
 
-  const contributeContent = `
-## Contributing
-
-- If you want to help out with the project, here are some ideas (submit Issues & Pull Requests on the GitHub page).
-- When contributing, please follow the rules outlined in [CONTRIBUTING.md.](./CONTRIBUTING.md)
-`;
-
-  const content = `# Cutting Kakao out of your life
-
-![status](https://img.shields.io/badge/status-draft-yellow)
-![license](https://img.shields.io/badge/license-unlicensed-green)
-
-> wanna keep loose coupling for privacy. heavily inspired by [degoogle](https://github.com/tycrek/degoogle).
-
+  const content = `${headerContent}
 ${contributeContent}
+${personalInformationContent}
 ${alternativeContent}
 `;
 
