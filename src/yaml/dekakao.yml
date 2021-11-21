@@ -1,0 +1,89 @@
+Bus:
+  title:
+  description:
+  children:
+    - name: TMAP 대중교통
+      url: http://www.tworld.co.kr/normal.do?serviceId=S_MSA_0017&viewId=V_PHOW7001&prodId=TW50000017
+      android: 
+      ios: 
+      description: 
+
+    - name: 네이버맵 버스
+      url: https://m.map.naver.com/bus/index.naver
+      android:
+      ios:
+      description:
+
+Metro:
+  title:
+  description:
+  children: 
+    - name: TMAP 대중교통
+      url: http://www.tworld.co.kr/normal.do?serviceId=S_MSA_0017&viewId=V_PHOW7001&prodId=TW50000017
+      android: 
+      ios: 
+      description: 
+
+    - name: 네이버맵 버스
+      url: https://m.map.naver.com/bus/index.naver
+      android:
+      ios:
+      description:
+
+Music:
+  title:
+  description:
+  children: 
+    - name: Youtube Music
+      url: https://music.youtube.com
+      android:
+      ios:
+      description:
+
+    - name: Apple Music
+      url: https://www.apple.com/kr/apple-music/
+      android:
+      ios:
+      description:
+
+    - name: Spotify
+      url: https://www.spotify.com/kr-ko/
+      android:
+      ios:
+      description:
+
+Pay:
+  title:
+  description: Should wait 11 days to close fund account.
+  children: 
+    - name: Toss
+      url: https://toss.im
+      android:
+      ios:
+      description:
+
+    - name: Banksalad
+      url: https://www.banksalad.com
+      android:
+      ios:
+      description:
+
+T:
+  title:
+  description:
+  children:
+    - name: UT
+      url: https://www.ut.taxi/kr/ko/
+      android:
+      ios:
+      description:
+    - name: Elecle
+      url: https://elecle.bike/service/
+      android:
+      ios:
+      description:
+
+Story:
+  title:
+  description:
+  children: []

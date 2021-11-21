@@ -1,0 +1,12 @@
+{
+  "minify": true,
+  "module": {
+    "type": "commonjs"
+  },
+  "jsc": {
+    "target": "es2018",
+    "parser": {
+      "syntax": "typescript"
+    }
+  }
+}
