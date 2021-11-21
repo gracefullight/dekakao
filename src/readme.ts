@@ -60,6 +60,7 @@ ${alternativeBody}
 ${contributeContent}
 ${personalInformationContent}
 ${alternativeContent}
+${BACK_TO_TOP}
 `;
 
   await writeFile(join(__dirname, "./README.md"), content, "utf8");
