@@ -14,6 +14,34 @@ Bus:
       ios:
       description:
 
+Messenger:
+  title:
+  description:
+  children: 
+    - name: Discord
+      url: https://discord.com
+      android:
+      ios:
+      description:
+
+    - name: Signal
+      url: https://signal.org/ko/
+      android:
+      ios:
+      description:
+
+    - name: Slack
+      url: https://slack.com/intl/ko-kr/
+      android:
+      ios:
+      description:
+
+    - name: Telegram
+      url: https://telegram.org
+      android:
+      ios:
+      description:
+
 Metro:
   title:
   description:
