@@ -46,6 +46,7 @@ ${service.children
     DateTime.local({ zone: "Asia/Seoul" }).toISO()
   );
   const contributeContent = await readMarkdown("contributing.md");
+  const eventContent = await readMarkdown("events.md");
   const personalInformationContent = await readMarkdown(
     "personal-information.md"
   );
@@ -58,6 +59,7 @@ ${alternativeBody}
 
   const content = `${headerContent}
 ${contributeContent}
+${eventContent}
 ${personalInformationContent}
 ${alternativeContent}
 ${BACK_TO_TOP}
