@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2021-12-12T17:58:34.192+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2021-12-12T18:00:27.756+09:00&color=388E3C&style=flat-square)
 
 ![status](https://img.shields.io/badge/status-draft-yellow)
 ![license](https://img.shields.io/badge/license-unlicensed-green)
@@ -18,7 +18,7 @@
 
 ## Events
 
-[불법촬영물등 유통방지를 위한 기술적・관리적 조치 적용 안내](https://events.kakao.com/talk/notices/ko/2590) <sup>[[1]](https://twitter.com/Snowden/status/1423466855986044928)[[2]](https://twitter.com/Snowden/status/1423469854347169798)[[3]](https://twitter.com/Snowden/status/1434209282753536007)</sup>
+[불법촬영물등 유통방지를 위한 기술적・관리적 조치 적용 안내](https://events.kakao.com/talk/notices/ko/2590) <sup>[1](https://twitter.com/Snowden/status/1423466855986044928)[2](https://twitter.com/Snowden/status/1423469854347169798)[3](https://twitter.com/Snowden/status/1434209282753536007)</sup>
 
 ## Personal information
 
