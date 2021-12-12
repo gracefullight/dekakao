@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2021-11-21T23:28:04.475+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2021-12-12T17:58:34.192+09:00&color=388E3C&style=flat-square)
 
 ![status](https://img.shields.io/badge/status-draft-yellow)
 ![license](https://img.shields.io/badge/license-unlicensed-green)
@@ -15,6 +15,10 @@
 
 - If you want to help out with the project, here are some ideas (submit Issues & Pull Requests on the GitHub page).
 - When contributing, please follow the rules outlined in [CONTRIBUTING.md.](./CONTRIBUTING.md)
+
+## Events
+
+[불법촬영물등 유통방지를 위한 기술적・관리적 조치 적용 안내](https://events.kakao.com/talk/notices/ko/2590) <sup>[[1]](https://twitter.com/Snowden/status/1423466855986044928)[[2]](https://twitter.com/Snowden/status/1423469854347169798)[[3]](https://twitter.com/Snowden/status/1434209282753536007)</sup>
 
 ## Personal information
 
@@ -37,6 +41,16 @@
 | ---- | ----------- |
 |[TMAP 대중교통](http://www.tworld.co.kr/normal.do?serviceId=S_MSA_0017&viewId=V_PHOW7001&prodId=TW50000017)||
 |[네이버맵 버스](https://m.map.naver.com/bus/index.naver)||
+
+
+### Messenger
+
+| Name | Description |
+| ---- | ----------- |
+|[Discord](https://discord.com)||
+|[Signal](https://signal.org/ko/)||
+|[Slack](https://slack.com/intl/ko-kr/)||
+|[Telegram](https://telegram.org)||
 
 
 ### Metro
