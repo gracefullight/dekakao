@@ -30,12 +30,10 @@ ${service.description ? `${EOL}${service.description}${EOL}` : ""}
 | Name | Description |
 | ---- | ----------- |
 ${service.children
-  .map(
-    (alternative) =>
-      `|[${alternative.name}](${alternative.url})|${
-        alternative.description ?? ""
-      }|`
-  )
+  .map(({ name, url, description }) => {
+    const alternativeName = url ? `[${name}](${url})` : name;
+    return `|${alternativeName}|${description ?? ""}|`;
+  })
   .join(EOL)}
 `;
     })
