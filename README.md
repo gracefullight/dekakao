@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2022-02-11T01:38:19.919+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2022-02-11T01:44:07.841+09:00&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-16-green)
@@ -76,7 +76,7 @@
 | Name | Description |
 | ---- | ----------- |
 |[Coupang Eats](https://www.coupangeats.com)||
-|[땡겨요](null)||
+|땡겨요||
 
 
 ### Pay
