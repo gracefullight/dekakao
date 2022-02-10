@@ -66,7 +66,7 @@ Music:
       url: https://music.youtube.com
       android:
       ios:
-      description:
+      description: ":india:"
 
     - name: Apple Music
       url: https://www.apple.com/kr/apple-music/
@@ -78,6 +78,22 @@ Music:
       url: https://www.spotify.com/kr-ko/
       android:
       ios:
+      description:
+
+Order:
+  title:
+  description: 주문하기 > 프로필 > 개인정보 관리 > 탈퇴
+  children:
+    - name: Coupang Eats
+      url: https://www.coupangeats.com
+      android: https://play.google.com/store/apps/details?id=com.coupang.mobile.eats
+      ios: https://apps.apple.com/kr/app/쿠팡이츠/id1445504255
+      description:
+
+    - name: 땡겨요
+      url:
+      android:
+      ios: https://apps.apple.com/kr/app/땡겨요/id1598850912
       description:
 
 Pay:
@@ -95,6 +111,10 @@ Pay:
       android:
       ios:
       description:
+
+Shopping:
+  title: 
+  description: 선물하기, 쇼핑하기, 메이커스, 장보기, 스타일, 쇼핑하우, 프렌즈스토어 이용불가
 
 T:
   title:
