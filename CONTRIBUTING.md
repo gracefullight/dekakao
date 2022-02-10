@@ -12,4 +12,3 @@
 1. Create your Pull Request with your changes.
    - Remember to **not** edit `README.md`!
    - As with Issues, fill out the template as best you can.
-2. For PR's relating to alternatives, please follow the steps above to also create an Issue for discussion. Simple PR's that are unrelated to a specific alternative may not require an Issue. If in doubt, create an **Other** Issue.
