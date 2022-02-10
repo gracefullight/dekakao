@@ -115,6 +115,7 @@ Pay:
 Shopping:
   title: 
   description: 선물하기, 쇼핑하기, 메이커스, 장보기, 스타일, 쇼핑하우, 프렌즈스토어 이용불가
+  children: []
 
 T:
   title:
