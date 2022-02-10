@@ -5,7 +5,6 @@
 
 ![Updated](https://img.shields.io/static/v1?label=updated&message={{DATE}}&color=388E3C&style=flat-square)
 
-![status](https://img.shields.io/badge/status-draft-yellow)
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-16-green)
 
