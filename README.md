@@ -3,9 +3,8 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2021-12-12T18:00:27.756+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2022-02-11T01:38:19.919+09:00&color=388E3C&style=flat-square)
 
-![status](https://img.shields.io/badge/status-draft-yellow)
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-16-green)
 
@@ -65,9 +64,19 @@
 
 | Name | Description |
 | ---- | ----------- |
-|[Youtube Music](https://music.youtube.com)||
+|[Youtube Music](https://music.youtube.com)|:india:|
 |[Apple Music](https://www.apple.com/kr/apple-music/)||
 |[Spotify](https://www.spotify.com/kr-ko/)||
+
+
+### Order
+
+주문하기 > 프로필 > 개인정보 관리 > 탈퇴
+
+| Name | Description |
+| ---- | ----------- |
+|[Coupang Eats](https://www.coupangeats.com)||
+|[땡겨요](null)||
 
 
 ### Pay
@@ -78,6 +87,15 @@ Should wait 11 days to close fund account.
 | ---- | ----------- |
 |[Toss](https://toss.im)||
 |[Banksalad](https://www.banksalad.com)||
+
+
+### Shopping
+
+선물하기, 쇼핑하기, 메이커스, 장보기, 스타일, 쇼핑하우, 프렌즈스토어 이용불가
+
+| Name | Description |
+| ---- | ----------- |
+
 
 
 ### T
