@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2022-02-11T01:44:07.841+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2022-02-21T23:58:52.083+09:00&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-16-green)
@@ -17,7 +17,8 @@
 
 ## Events
 
-[불법촬영물등 유통방지를 위한 기술적・관리적 조치 적용 안내](https://events.kakao.com/talk/notices/ko/2590) <sup>[1](https://twitter.com/Snowden/status/1423466855986044928)[2](https://twitter.com/Snowden/status/1423469854347169798)[3](https://twitter.com/Snowden/status/1434209282753536007)</sup>
+- [불법촬영물등 유통방지를 위한 기술적・관리적 조치 적용 안내](https://events.kakao.com/talk/notices/ko/2590) <sup>[1](https://twitter.com/Snowden/status/1423466855986044928)[2](https://twitter.com/Snowden/status/1423469854347169798)[3](https://twitter.com/Snowden/status/1434209282753536007)</sup>
+- [카카오, 웹툰 작가 검열 논란](http://www.sisajournal-e.com/news/articleView.html?idxno=237002)
 
 ## Personal information
 
