@@ -6,6 +6,6 @@
 ![Updated](https://img.shields.io/static/v1?label=updated&message={{DATE}}&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
-![nodejs](https://img.shields.io/badge/nodejs-16-green)
+![nodejs](https://img.shields.io/badge/nodejs-18-green)
 
 > wanna keep loose coupling for privacy. heavily inspired by [degoogle](https://github.com/tycrek/degoogle).
