@@ -16,7 +16,7 @@ const readYaml = async (path: string): Promise<unknown> => {
 };
 
 const readMarkdown = async (path: string): Promise<string> => {
-  return await readFile(join(__dirname, "md", path), "utf8");
+  return readFile(join(__dirname, "md", path), "utf8");
 };
 
 (async () => {

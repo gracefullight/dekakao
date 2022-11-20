@@ -3,6 +3,7 @@
     "arcanis.vscode-zipfs",
     "esbenp.prettier-vscode",
     "ms-vscode.vscode-typescript-next",
-    "EditorConfig.EditorConfig"
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint"
   ]
 }
