@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2022-02-21T23:58:52.083+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2022-11-20T10:33:36.001+09:00&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-16-green)
