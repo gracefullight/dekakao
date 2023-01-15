@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2022-11-20T10:35:47.072+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2023-01-16T00:52:14.825+09:00&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-18-green)
@@ -47,6 +47,7 @@
 
 | Name | Description |
 | ---- | ----------- |
+|[Line](https://line.me/ko/)||
 |[Discord](https://discord.com)||
 |[Signal](https://signal.org/ko/)||
 |[Slack](https://slack.com/intl/ko-kr/)||
@@ -65,7 +66,7 @@
 
 | Name | Description |
 | ---- | ----------- |
-|[Youtube Music](https://music.youtube.com)|:india:|
+|[Youtube Music](https://music.youtube.com)||
 |[Apple Music](https://www.apple.com/kr/apple-music/)||
 |[Spotify](https://www.spotify.com/kr-ko/)||
 
@@ -77,7 +78,8 @@
 | Name | Description |
 | ---- | ----------- |
 |[Coupang Eats](https://www.coupangeats.com)||
-|땡겨요||
+|[땡겨요](https://www.ddangyo.com)||
+|[두잇](https://doeat.io)||
 
 
 ### Pay
