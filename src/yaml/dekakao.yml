@@ -4,9 +4,9 @@ Bus:
   children:
     - name: TMAP 대중교통
       url: http://www.tworld.co.kr/normal.do?serviceId=S_MSA_0017&viewId=V_PHOW7001&prodId=TW50000017
-      android: 
-      ios: 
-      description: 
+      android:
+      ios:
+      description:
 
     - name: 네이버맵 버스
       url: https://m.map.naver.com/bus/index.naver
@@ -17,7 +17,13 @@ Bus:
 Messenger:
   title:
   description:
-  children: 
+  children:
+    - name: Line
+      url: https://line.me/ko/
+      android:
+      ios:
+      description:
+
     - name: Discord
       url: https://discord.com
       android:
@@ -45,12 +51,12 @@ Messenger:
 Metro:
   title:
   description:
-  children: 
+  children:
     - name: TMAP 대중교통
       url: http://www.tworld.co.kr/normal.do?serviceId=S_MSA_0017&viewId=V_PHOW7001&prodId=TW50000017
-      android: 
-      ios: 
-      description: 
+      android:
+      ios:
+      description:
 
     - name: 네이버맵 버스
       url: https://m.map.naver.com/bus/index.naver
@@ -61,12 +67,12 @@ Metro:
 Music:
   title:
   description:
-  children: 
+  children:
     - name: Youtube Music
       url: https://music.youtube.com
       android:
       ios:
-      description: ":india:"
+      description:
 
     - name: Apple Music
       url: https://www.apple.com/kr/apple-music/
@@ -91,15 +97,21 @@ Order:
       description:
 
     - name: 땡겨요
-      url:
+      url: https://www.ddangyo.com
       android:
       ios: https://apps.apple.com/kr/app/땡겨요/id1598850912
+      description:
+
+    - name: 두잇
+      url: https://doeat.io
+      android: https://doeat.page.link/5hedMgG8qUDoteHTA
+      ios: https://doeat.page.link/5hedMgG8qUDoteHTA
       description:
 
 Pay:
   title:
   description: Should wait 11 days to close fund account.
-  children: 
+  children:
     - name: Toss
       url: https://toss.im
       android:
@@ -113,7 +125,7 @@ Pay:
       description:
 
 Shopping:
-  title: 
+  title:
   description: 선물하기, 쇼핑하기, 메이커스, 장보기, 스타일, 쇼핑하우, 프렌즈스토어 이용불가
   children: []
 
@@ -126,6 +138,7 @@ T:
       android:
       ios:
       description:
+
     - name: Elecle
       url: https://elecle.bike/service/
       android:
@@ -135,7 +148,7 @@ T:
 Tistory:
   title:
   description:
-  children: 
+  children:
     - name: Github Pages
       url: https://pages.github.com
       description:
