@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2023-01-16T01:42:16.657+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2023-01-16T01:44:52.697+09:00&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-18-green)
@@ -13,7 +13,7 @@
 ## Contributing
 
 - If you want to help out with the project, here are some ideas (submit Issues & Pull Requests on the GitHub page).
-- When contributing, please follow the rules outlined in [CONTRIBUTING.md.](./CONTRIBUTING.md)
+- When contributing, please follow the rules outlined in [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Events
 
