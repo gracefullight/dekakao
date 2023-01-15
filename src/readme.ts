@@ -1,6 +1,5 @@
 import { readFile, writeFile } from "fs/promises";
 import { join } from "path";
-import { EOL } from "os";
 
 import { load } from "js-yaml";
 import { DateTime } from "luxon";
@@ -26,28 +25,39 @@ const readMarkdown = async (path: string): Promise<string> => {
       const service = data[kakaoService];
       return `
 ### ${service.title ?? kakaoService}
-${service.description ? `${EOL}${service.description}${EOL}` : ""}
-| Name | Description |
-| ---- | ----------- |
+${service.description ? `\n${service.description}\n` : ""}
+| Name | Apps |Description |
+| ---- | ---- | ----------- |
 ${service.children
-  .map(({ name, url, description }) => {
+  .map(({ name, url, description, android, ios }) => {
     const alternativeName = url ? `[${name}](${url})` : name;
-    return `|${alternativeName}|${description ?? ""}|`;
+    const androidBadge =
+      android &&
+      `[![android](https://img.shields.io/badge/android-black?logo=android)](${android})`;
+    const iosBadge =
+      ios &&
+      `[![android](https://img.shields.io/badge/ios-black?logo=apple)](${ios})`;
+
+    const appBadges = [androidBadge, iosBadge].join("<br/>");
+    return `|${alternativeName}|${appBadges}|${description ?? ""}|`;
   })
-  .join(EOL)}
+  .join("\n")}
 `;
     })
-    .join(EOL);
+    .join("\n");
 
-  const headerContent = (await readMarkdown("_header.md")).replace(
-    "{{DATE}}",
-    DateTime.local({ zone: "Asia/Seoul" }).toISO()
-  );
-  const contributeContent = await readMarkdown("contributing.md");
-  const eventContent = await readMarkdown("events.md");
-  const personalInformationContent = await readMarkdown(
-    "personal-information.md"
-  );
+  const [
+    headerContent,
+    contributeContent,
+    eventContent,
+    personalInformationContent,
+  ] = await Promise.all([
+    readMarkdown("_header.md"),
+    readMarkdown("contributing.md"),
+    readMarkdown("events.md"),
+    readMarkdown("personal-information.md"),
+  ]);
+
   const alternativeContent = `
 ## Replacements/alternatives
 
@@ -55,7 +65,8 @@ ${BACK_TO_TOP}
 ${alternativeBody}
 `;
 
-  const content = `${headerContent}
+  const now = DateTime.local({ zone: "Asia/Seoul" }).toISO();
+  const content = `${headerContent.replace("{{DATE}}", now)}
 ${contributeContent}
 ${eventContent}
 ${personalInformationContent}

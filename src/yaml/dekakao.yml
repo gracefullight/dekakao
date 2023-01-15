@@ -3,15 +3,15 @@ Bus:
   description:
   children:
     - name: TMAP 대중교통
-      url: http://www.tworld.co.kr/normal.do?serviceId=S_MSA_0017&viewId=V_PHOW7001&prodId=TW50000017
-      android:
-      ios:
+      url: https://www.tmap.co.kr
+      android: https://play.google.com/store/apps/details?id=com.skp.lbs.ptransit
+      ios: https://apps.apple.com/kr/app/tmap-대중교통/id583223883
       description:
 
     - name: 네이버맵 버스
       url: https://m.map.naver.com/bus/index.naver
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.nhn.android.nmap
+      ios: https://apps.apple.com/kr/app/naver-map-navigation/id311867728
       description:
 
 Messenger:
@@ -20,32 +20,32 @@ Messenger:
   children:
     - name: Line
       url: https://line.me/ko/
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=jp.naver.line.android
+      ios: https://apps.apple.com/kr/app/line/id443904275
       description:
 
     - name: Discord
       url: https://discord.com
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.discord
+      ios: https://apps.apple.com/kr/app/discord-chat-talk-hangout/id985746746
       description:
 
     - name: Signal
       url: https://signal.org/ko/
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
+      ios: https://apps.apple.com/kr/app/signal-private-messenger/id874139669
       description:
 
     - name: Slack
       url: https://slack.com/intl/ko-kr/
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.Slack
+      ios: https://apps.apple.com/kr/app/slack/id618783545
       description:
 
     - name: Telegram
       url: https://telegram.org
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=org.telegram.messenger
+      ios: https://apps.apple.com/kr/app/telegram-messenger/id686449807
       description:
 
 Metro:
@@ -53,15 +53,15 @@ Metro:
   description:
   children:
     - name: TMAP 대중교통
-      url: http://www.tworld.co.kr/normal.do?serviceId=S_MSA_0017&viewId=V_PHOW7001&prodId=TW50000017
-      android:
-      ios:
+      url: https://www.tmap.co.kr
+      android: https://play.google.com/store/apps/details?id=com.skp.lbs.ptransit
+      ios: https://apps.apple.com/kr/app/tmap-대중교통/id583223883
       description:
 
-    - name: 네이버맵 버스
-      url: https://m.map.naver.com/bus/index.naver
-      android:
-      ios:
+    - name: 네이버맵 지하철
+      url: https://m.map.naver.com/subway/subwayLine.naver
+      android: https://play.google.com/store/apps/details?id=com.nhn.android.nmap
+      ios: https://apps.apple.com/kr/app/naver-map-navigation/id311867728
       description:
 
 Music:
@@ -70,20 +70,20 @@ Music:
   children:
     - name: Youtube Music
       url: https://music.youtube.com
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music
+      ios: https://apps.apple.com/kr/app/youtube-music/id1017492454
       description:
 
     - name: Apple Music
       url: https://www.apple.com/kr/apple-music/
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.apple.android.music
+      ios: https://apps.apple.com/kr/app/apple-music/id1108187390
       description:
 
     - name: Spotify
       url: https://www.spotify.com/kr-ko/
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.spotify.music
+      ios: https://apps.apple.com/kr/app/spotify-스포티파이/id324684580
       description:
 
 Order:
@@ -98,7 +98,7 @@ Order:
 
     - name: 땡겨요
       url: https://www.ddangyo.com
-      android:
+      android: https://play.google.com/store/apps/details?id=com.shinhan.o2o
       ios: https://apps.apple.com/kr/app/땡겨요/id1598850912
       description:
 
@@ -114,14 +114,14 @@ Pay:
   children:
     - name: Toss
       url: https://toss.im
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=viva.republica.toss
+      ios: https://apps.apple.com/kr/app/토스/id839333328
       description:
 
     - name: Banksalad
       url: https://www.banksalad.com
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.rainist.banksalad2
+      ios: https://apps.apple.com/kr/app/뱅크샐러드/id1195804784
       description:
 
 Shopping:
@@ -135,14 +135,14 @@ T:
   children:
     - name: UT
       url: https://www.ut.taxi/kr/ko/
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=com.ubercab
+      ios: https://apps.apple.com/kr/app/uber/id368677368
       description:
 
     - name: Elecle
       url: https://elecle.bike/service/
-      android:
-      ios:
+      android: https://play.google.com/store/apps/details?id=org.nine2one.elecle
+      ios: https://apps.apple.com/kr/app/일레클-모든-이동의-시작과-끝/id1456461872
       description:
 
 Tistory:
