@@ -4,7 +4,7 @@
     "type": "commonjs"
   },
   "jsc": {
-    "target": "es2018",
+    "target": "es2021",
     "parser": {
       "syntax": "typescript"
     }
