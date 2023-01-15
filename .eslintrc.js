@@ -11,10 +11,9 @@ module.exports = {
     "plugin:import/recommended",
     "plugin:prettier/recommended",
   ],
-  overrides: [],
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+  settings: {
+    "import/resolver": {
+      typescript: {},
+    },
   },
-  rules: {},
 };
