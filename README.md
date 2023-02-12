@@ -3,7 +3,7 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2023-01-16T01:44:52.697+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2023-02-12T15:08:12.599+09:00&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
 ![nodejs](https://img.shields.io/badge/nodejs-18-green)
@@ -52,6 +52,7 @@
 |[Signal](https://signal.org/ko/)|[![android](https://img.shields.io/badge/android-black?logo=android)](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)<br/>[![android](https://img.shields.io/badge/ios-black?logo=apple)](https://apps.apple.com/kr/app/signal-private-messenger/id874139669)||
 |[Slack](https://slack.com/intl/ko-kr/)|[![android](https://img.shields.io/badge/android-black?logo=android)](https://play.google.com/store/apps/details?id=com.Slack)<br/>[![android](https://img.shields.io/badge/ios-black?logo=apple)](https://apps.apple.com/kr/app/slack/id618783545)||
 |[Telegram](https://telegram.org)|[![android](https://img.shields.io/badge/android-black?logo=android)](https://play.google.com/store/apps/details?id=org.telegram.messenger)<br/>[![android](https://img.shields.io/badge/ios-black?logo=apple)](https://apps.apple.com/kr/app/telegram-messenger/id686449807)||
+|[Bondee](https://bondee.net)|[![android](https://img.shields.io/badge/android-black?logo=android)](https://play.google.com/store/apps/details?id=com.metadream.bondee)<br/>[![android](https://img.shields.io/badge/ios-black?logo=apple)](https://apps.apple.com/kr/app/bondee-본디/id6443947003)||
 
 
 ### Metro
