@@ -48,6 +48,12 @@ Messenger:
       ios: https://apps.apple.com/kr/app/telegram-messenger/id686449807
       description:
 
+    - name: Bondee
+      url: https://bondee.net
+      android: https://play.google.com/store/apps/details?id=com.metadream.bondee
+      ios: https://apps.apple.com/kr/app/bondee-본디/id6443947003
+      description:
+
 Metro:
   title:
   description:
