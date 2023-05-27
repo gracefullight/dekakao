@@ -15,5 +15,13 @@ module.exports = {
     "import/resolver": {
       typescript: {},
     },
+    "import/order": [
+      "warn",
+      {
+        alphabetize: { order: "asc" },
+        "newlines-between": "always",
+        groups: ["builtin", "external", "index", "sibling", "parent"],
+      },
+    ],
   },
 };
