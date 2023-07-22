@@ -6,10 +6,11 @@ export interface Alternative {
   description?: string;
 }
 
-export interface Service {
-  [key: string]: {
+export type Service = Record<
+  string,
+  {
     title?: string;
     description?: string;
     children: Alternative[];
-  };
-}
+  }
+>;

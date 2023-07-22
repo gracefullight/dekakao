@@ -5,9 +5,12 @@ module.exports = {
   },
   root: true,
   parser: "@typescript-eslint/parser",
+  parserOptions: {
+    project: true,
+  },
   extends: [
-    "airbnb/base",
-    "plugin:@typescript-eslint/recommended",
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     "plugin:import/recommended",
     "plugin:prettier/recommended",
   ],
@@ -15,12 +18,11 @@ module.exports = {
     "import/resolver": {
       typescript: {},
     },
-    "import/order": [
+    "@typescript-eslint/consistent-type-imports": [
       "warn",
       {
-        alphabetize: { order: "asc" },
-        "newlines-between": "always",
-        groups: ["builtin", "external", "index", "sibling", "parent"],
+        prefer: "type-imports",
+        fixStyle: "inline-type-imports",
       },
     ],
   },

@@ -18,7 +18,7 @@ const readMarkdown = async (path: string): Promise<string> => {
   return readFile(join(__dirname, "md", path), "utf8");
 };
 
-(async () => {
+const run = async () => {
   const data = (await readYaml("dekakao.yml")) as Service;
   const alternativeBody = Object.keys(data)
     .map((kakaoService) => {
@@ -65,7 +65,7 @@ ${BACK_TO_TOP}
 ${alternativeBody}
 `;
 
-  const now = DateTime.local({ zone: "Asia/Seoul" }).toISO();
+  const now = DateTime.local({ zone: "Asia/Seoul" }).toISO()!;
   const content = `${headerContent.replace("{{DATE}}", now)}
 ${contributeContent}
 ${eventContent}
@@ -75,4 +75,6 @@ ${BACK_TO_TOP}
 `;
 
   await writeFile(join(__dirname, "./README.md"), content, "utf8");
-})();
+};
+
+run().catch((e) => console.error(e));
