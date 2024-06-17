@@ -48,12 +48,6 @@ Messenger:
       ios: https://apps.apple.com/kr/app/telegram-messenger/id686449807
       description:
 
-    - name: Bondee
-      url: https://bondee.net
-      android: https://play.google.com/store/apps/details?id=com.metadream.bondee
-      ios: https://apps.apple.com/kr/app/bondee-본디/id6443947003
-      description:
-
 Metro:
   title:
   description:
@@ -149,6 +143,12 @@ T:
       url: https://elecle.bike/service/
       android: https://play.google.com/store/apps/details?id=org.nine2one.elecle
       ios: https://apps.apple.com/kr/app/일레클-모든-이동의-시작과-끝/id1456461872
+      description:
+
+    - name: SWING
+      url: https://www.swingmobility.co/
+      android: https://play.google.com/store/apps/details?id=com.co.swing
+      ios: https://apps.apple.com/kr/app/%EC%8A%A4%EC%9C%99-swing-your-smart-wing/id1459344011
       description:
 
 Tistory:

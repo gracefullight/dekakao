@@ -12,31 +12,29 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 8
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
 
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 18.x
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
 
-    - name: Install & Build
-      run: pnpm install --frozen-lockfile && pnpm build
+      - name: Install & Build
+        run: pnpm install --frozen-lockfile && pnpm build
 
-    - name: Generate
-      run: pnpm generate
+      - name: Generate
+        run: pnpm generate
 
-    - name: Commit
-      run: |
-        mv -f dist/README.md .
-        git add README.md
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit --allow-empty -m "chore: generate README.md"
+      - name: Commit
+        run: |
+          mv -f dist/README.md .
+          git add README.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit --allow-empty -m "chore: generate README.md"
 
-    - name: Push
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
