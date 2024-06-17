@@ -19,15 +19,14 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install & Build
-        run: pnpm install --frozen-lockfile && pnpm build
+      - name: Install
+        run: pnpm install --frozen-lockfile
 
       - name: Generate
         run: pnpm generate
 
       - name: Commit
         run: |
-          mv -f dist/README.md .
           git add README.md
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

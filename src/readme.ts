@@ -74,7 +74,8 @@ ${alternativeContent}
 ${BACK_TO_TOP}
 `;
 
-  await writeFile(join(__dirname, "./README.md"), content, "utf8");
+  await writeFile(join(__dirname, "../README.md"), content, "utf8");
+  console.log("File generation completed successfully!");
 };
 
 run().catch((e) => console.error(e));
