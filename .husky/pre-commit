@@ -1,1 +1,1 @@
-pnpm lint-staged --config config/.lintstagedrc.json
+pnpm lint-staged --config config/lint-staged.config.mjs
