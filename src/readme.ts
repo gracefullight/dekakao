@@ -65,7 +65,7 @@ ${BACK_TO_TOP}
 ${alternativeBody}
 `;
 
-  const now = DateTime.local({ zone: "Asia/Seoul" }).toISO()!;
+  const now = DateTime.local({ zone: "Asia/Seoul" }).toISO();
   const content = `${headerContent.replace("{{DATE}}", now)}
 ${contributeContent}
 ${eventContent}
