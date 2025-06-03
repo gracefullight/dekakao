@@ -3,10 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - src/yaml/*.yml
-      - src/md/*.md
-      - src/readme.ts
 
 jobs:
   generate:
