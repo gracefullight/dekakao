@@ -3,10 +3,10 @@
 [//]: # (NOTE: Please do NOT directly edit this file! Instead, edit)
 [//]: # (either dekakao.yml or any Markdown file in the md/ directory)
 
-![Updated](https://img.shields.io/static/v1?label=updated&message=2025-06-03T22:20:55.146+09:00&color=388E3C&style=flat-square)
+![Updated](https://img.shields.io/static/v1?label=updated&message=2025-06-03T22:22:30.152+09:00&color=388E3C&style=flat-square)
 
 ![license](https://img.shields.io/badge/license-unlicensed-green)
-![nodejs](https://img.shields.io/badge/nodejs-18-green)
+![nodejs](https://img.shields.io/badge/nodejs-22-green)
 
 > wanna keep loose coupling for privacy. heavily inspired by [degoogle](https://github.com/tycrek/degoogle).
 
