@@ -1,5 +1,5 @@
-import { readFile, writeFile } from "fs/promises";
-import { join } from "path";
+import { readFile, writeFile } from "node:fs/promises";
+import { join } from "node:path";
 
 import { load } from "js-yaml";
 import { DateTime } from "luxon";
@@ -15,7 +15,7 @@ const readYaml = async (path: string): Promise<unknown> => {
 };
 
 const readMarkdown = async (path: string): Promise<string> => {
-  return readFile(join(__dirname, "md", path), "utf8");
+  return await readFile(join(__dirname, "md", path), "utf8");
 };
 
 const run = async () => {
